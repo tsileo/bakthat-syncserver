@@ -15,6 +15,7 @@ Be careful, you should use ssl (even with a self signed cert) and run it whith s
 
 You should run it with a proxy like gunicorn of your favorite tool.
 
+    $ pip install -r requirements.txt
     $ python server.py
      * Running on http://0.0.0.0:2405/
      * Restarting with reloader

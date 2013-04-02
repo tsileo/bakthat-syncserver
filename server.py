@@ -4,7 +4,7 @@ from flask.views import MethodView
 from datetime import datetime
 from bson import ObjectId
 from pymongo import Connection
-import simplejson as json
+import json
 from functools import wraps
 from slugify import slugify
 
