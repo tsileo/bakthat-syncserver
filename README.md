@@ -13,7 +13,7 @@ Be careful, you should use ssl (even with a self signed cert) and run it whith s
 
 ### Server side
 
-You should run it with a proxy like gunicorn of your favorite tool.
+You should run it with a proxy like gunicorn.
 
     $ pip install -r requirements.txt
     $ python server.py
@@ -24,7 +24,7 @@ You should run it with a proxy like gunicorn of your favorite tool.
 
 Assuming bakthat is already installed.
 
-**Change LOGIN and PASSWORD** on top of server.py, you can also change the port a the end (2405 by default).
+**Change LOGIN and PASSWORD** on top of server.py, you can also change the port a the end (**2405 by default**).
 
 Edit ~/.bakthat.yml for each client.
 
