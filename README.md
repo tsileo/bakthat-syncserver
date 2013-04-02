@@ -4,10 +4,10 @@ Draft of a synchronization server for [bakthat](http://docs.bakthat.io).
 
 Requirements:
 
-- MongoDB
-- Flask
+- [MongoDB](http://www.mongodb.org/)
+- [Flask](http://flask.pocoo.org/)
 
-Be careful, you should use ssl (even with a self signed cert) and run it whith something like gunicorn.
+Be careful, you should use ssl (even with a self signed cert) and run it whith something like [gunicorn](http://gunicorn.org/).
 
 ## Setting up
 
@@ -20,11 +20,11 @@ You should run it with a proxy like gunicorn of your favorite tool.
      * Running on http://0.0.0.0:2405/
      * Restarting with reloader
 
-## Client side
+### Client side
 
 Assuming bakthat is already installed.
 
-Change LOGIN and PASSWORD on top of server.py, you can also change the port a the end (2405 by default).
+**Change LOGIN and PASSWORD** on top of server.py, you can also change the port a the end (2405 by default).
 
 Edit ~/.bakthat.yml for each client.
 
